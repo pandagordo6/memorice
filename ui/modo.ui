@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>321</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Form{background:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0 #E1F5FE,stop:1 #EDE7F6);}
+QWidget{color:#311B92;}
+QLabel{background:transparent;}
+QFrame{background:transparent;}
+QPushButton{background:#7E57C2;color:white;border-radius:14px;padding:10px;min-height:48px;font-weight:bold;}
+QPushButton:hover{background:#673AB7;}
+QPushButton:disabled{background:#D1C4E9;color:#7a7a9a;}
+QLineEdit,QComboBox,QSpinBox{background:white;padding:6px;border:2px solid #81D4FA;border-radius:8px;}
+QTableWidget{background:white;gridline-color:#B3E5FC;}
+QHeaderView::section{background:#B39DDB;color:white;padding:6px;font-weight:bold;}</string>
+  </property>
+  <layout class="QVBoxLayout" name="v">
+   <item>
+    <widget class="QLabel" name="lblSaludo">
+     <property name="styleSheet">
+      <string>font-size:30pt;font-weight:bold;</string>
+     </property>
+     <property name="text">
+      <string>Hola 👋</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lblRacha">
+     <property name="text">
+      <string>🔥 racha</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lblPregunta">
+     <property name="styleSheet">
+      <string>font-size:24pt;font-weight:bold;</string>
+     </property>
+     <property name="text">
+      <string>¿Qué quieres jugar hoy? 🎮</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnMemoria">
+     <property name="text">
+      <string>🃏 Memoria</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnAsociacion">
+     <property name="text">
+      <string>🍎 Asociación fruta-palabra</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnAtencion">
+     <property name="text">
+      <string>🔍 Atención</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnCambiar">
+     <property name="text">
+      <string>Cambiar de usuario</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
